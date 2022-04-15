@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Hora do dia</title>
 </head>
-<body onload = 'carregar'>  <!--Quando a página carregar vai chamar a função carregar -->
+<body onload = "carregar()">  <!--Quando a página carregar vai chamar a função carregar -->
     <header>
         <h1>Hora do dia</h1>
     </header>
@@ -16,7 +16,10 @@
             Aqui vai aparecer a mensagem.
         </div>
         <div id="foto">
-            <img src="images/manha.png" alt="foto manhã"> 
+            <img id="image" src="images/manha.png" alt="foto manhã"> 
+        </div>
+        <div >
+            <p id=msg2 >outra mensagem</p>
         </div>
     </section>
     <footer>
