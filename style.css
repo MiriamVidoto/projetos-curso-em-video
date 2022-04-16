@@ -19,3 +19,8 @@ Footer{
     text-align: center;
     font-style: italic;
 }
+#image{
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
