@@ -5,18 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Modelo de Exercício</title>
+    <title>Vamos contar</title>
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Vamos contar!</h1>
     </header>
     <section>
         <div>
-            testando...
+            <p>Início: <input type="number" name="inicio" id="inicio"></p>   
+            <p>Fim: <input type="number" name="fim" id="fim"></p>
+            <p>Passo: <input type="number" name="passo" id="passo"></p>
+            <p><input type="button" value="Contar" onclick='contar()'></p>
         </div>
-        <div>
-            Olá
+        <div id="res">
+            Preparando a contagem...
         </div>
     </section>
     <footer>
