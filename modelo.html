@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Modelo de Exercício</title>
+    <title>Analisador de números</title>
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Analisador de números</h1>
     </header>
     <section>
         <div>
-            testando...
+            <p>Número (entre 1 e 100): <input type="number" name="numero" id="numero"> <input type="button" value="Adicionar" onclick="adicionar()"></p>
+            <select name="array" id="array"></select> <input type="button" value="Finalizar" onclick="finalizar()">
         </div>
-        <div>
-            Olá
+        <div id="resultado">
+            resultado
         </div>
     </section>
     <footer>
