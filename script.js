@@ -41,7 +41,6 @@ function verificar(){
         res.style.textAlign = 'center'
         res.innerHTML = `Detectamos ${genero} com ${idade} anos`
         image.appendChild(img);
-        image.style.margin('auto');
-
+        image.style.textAlign = 'center';     
     }
 }
